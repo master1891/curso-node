@@ -5,12 +5,29 @@
 
 // console.log(resultado)
 
-const mascota = {
-	nombre: 'Tom',
-	edad: 3,
-	comidas:[
-		"pescado"
-	]
+//OBJETOS
+// const mascota = {
+// 	nombre: 'Tom',
+// 	edad: 3,
+// 	comidas:[
+// 		"pescado"
+// 	]
+// }
+
+// console.log(mascota)
+
+//DESTRUCTURING
+
+const Web = {
+	webmasters: "Nelson Ek",
+	Link:{
+		url:'http://google.com',
+		nombre: 'master.con',
+		edad: 4,
+	}
+
 }
 
-console.log(mascota)
+const {webmasters,Link} = Web
+
+console.log(Link.url)
